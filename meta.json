@@ -2,25 +2,46 @@
  * Metadata describing the module operation
  */
 {
-    //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "id",
+            "title": "ID"
+        },
+        {
+            "id": "given_name",
+            "title":"First Name"
+        },
+        {
+            "id": "family_name",
+            "title":"Last Name"
+        },
+        {
+            "id": "employment_title",
+            "title":"Title"
+        },
+        {
+            "id": "facebook_handle",
+            "title":"Facebook ID"
+        },
+        {
+            "id": "linkedin_handle",
+            "title":"LinkedIn URL"
+        },
+        {
+            "id": "twitter_handle",
+            "title":"Twitter Name"
+        },
+        {
+            "id": "github_handle",
+            "title":"GitHub Handle"
         }
-        */
     ],
-    //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "success",
+            "title":"Success"
         }
-      */
     ],
-    "title": "Clearbit: Flag Person" /* Required.A display name for the module */
+    "icon": "dex-clearbit",
+    "title": "Clearbit: Flag Person"
 }
